@@ -57,13 +57,3 @@ Model dievaluasi pada set data pengujian yang terpisah.
 
 ## 7. Konversi Model
 Model telah dikonversi ke format `TensorFlow Lite` (`vegs.tflite`) dan `TensorFlow.js` (`model_tfjs/`) untuk penyebaran ke perangkat mobile atau web.
-
-## 8. Contoh Inferensi
-Bagian inferensi opsional menunjukkan bagaimana model dapat digunakan untuk memprediksi kelas gambar baru yang diunggah, menampilkan prediksi dan tingkat kepercayaan.
-
-"""
-
-with open('README.md', 'w') as f:
-    f.write(readme_content)
-
-print("File README.md berhasil dibuat.")
